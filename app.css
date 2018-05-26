@@ -1,0 +1,54 @@
+body{
+/* 	background-color: #232323; */
+}
+
+.square{
+	width: 30%;
+/* 	background:purple; */
+	margin:1.66%;
+	/*float:left;*/
+	padding-bottom:30%;
+	float:left;
+  border-radius:5px;
+}
+.square:hover{
+  opacity:0.8;
+}
+
+#container{
+	max-width: 600px;
+	margin:3% auto;
+}
+h1{
+/* 	color:white; */
+  width:50%;
+  margin:3% auto;
+/*   height:90px; */
+/*   background:black; */
+	text-align: center;
+  font-family:arial;
+  letter-spacing:4px;
+}
+#stripe{
+	background-color:white;
+	height:30px;
+	text-align: center;
+	color:black
+}
+.selected{
+background-color: black;
+  color:white;
+}
+button{
+  border:none;
+  outline:none;
+padding:5px;
+  font-size:20px;
+  border:4px;
+  letter-spacing:2px;
+  margin:5px;
+}
+button:hover{
+  color:white;
+  background:black;
+}
